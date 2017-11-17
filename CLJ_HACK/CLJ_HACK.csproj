@@ -171,6 +171,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Inventory.aspx.cs">
       <DependentUpon>Inventory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
