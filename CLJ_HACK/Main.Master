@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="CLJ_HACK.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class ="menu">
+                <ul>
+                    <li class="navigation_first_item"><a href="Default.aspx">Home</a></li>
+                    <li><a href="Categories.aspx">Categories</a></li>
+<%--                    <li><a href="Inventory.aspx">Inventory</a></li>
+                    <li><a href="Sales.aspx">Sales</a></li>
+                    <li><a href="Partner.aspx">Partner</a></li>--%>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="contentBody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>SIX - HACKATHON 2017</h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
